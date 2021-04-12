@@ -1,4 +1,9 @@
 # BlockTrivia
+<p  align="center">
+<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/440/507/datas/original.png" width="200" height="200" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1200px-Ethereum_logo_2014.svg.png" height="200" />
+</br>
+</p>
 A simple trivia game written in Solidity in an afternoon. One of 3 winning projects at GWU's Hackital 2018.
 
 BlockTrivia is a bare-bones Ethereum smart contract that was written at a 6-hour hackathon in Washington, DC. Contestants were challened to write a smart-contract in Solidity that demonstrates Ethereum's decentralized application platform.
@@ -72,3 +77,4 @@ To end the game, the original creator of the smart-contract calls the endGame() 
 
     }
 ```
+
