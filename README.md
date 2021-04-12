@@ -22,6 +22,8 @@ When someone wants to post a trivia question, they create an instance of the sma
 ```
 
 **The Players:**
+
+
 Players are represented with structs and have two properties - the player's choice, and the player's address.
 `
     struct player{
