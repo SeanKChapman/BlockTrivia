@@ -30,12 +30,13 @@ When someone wants to post a trivia question, they create an instance of the sma
 **The Players:**
 </br>
 Players are represented with structs and have two properties - the player's choice, and the player's address.
-`
+
+```c
     struct player{
         uint choice;
         address player_address;
     }
-`
+```
 </br>
 
 **Submitting a Choice:**
