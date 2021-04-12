@@ -6,6 +6,7 @@ BlockTrivia is a bare-bones Ethereum smart contract that was written at a 6-hour
 #### How does BlockTrivia Work:
 
 **Constructing a question:**
+</br>
 When someone wants to post a trivia question, they create an instance of the smart contract. The constructor takes 4 strings. 1 question and 3 possible answers, as well as a time limit.
 
 ```c
@@ -22,8 +23,7 @@ When someone wants to post a trivia question, they create an instance of the sma
 ```
 
 **The Players:**
-
-
+</br>
 Players are represented with structs and have two properties - the player's choice, and the player's address.
 `
     struct player{
@@ -34,6 +34,7 @@ Players are represented with structs and have two properties - the player's choi
 </br>
 
 **Submitting a Choice:**
+</br>
 Choices are submitted when users call the makeChoice() function on the smart-contract.
 
 ```c
@@ -52,6 +53,7 @@ Choices are submitted when users call the makeChoice() function on the smart-con
 ```
 
 **Ending the Game**
+</br>
 To end the game, the original creator of the smart-contract calls the endGame() function. This searches through all the submissions and collects the addresses of those who answered correctly.
 ```c
     function endGame(uint correct_answer) public {
